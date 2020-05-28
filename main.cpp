@@ -114,8 +114,8 @@ void render(const std::vector<Sphere> &spheres, const std::vector<Light> &lights
 
 int main() 
 	{
-    Material sf1(Vec3f(0.2, 0.6, 0.8));
-    Material sf2(Vec3f(0.5, 0.7, 0.3));
+    Material sf1(Vec3f(0.7, 0.6, 0.4));
+    Material sf2(Vec3f(0.9, 0.7, 0.1));
 
     std::vector<Sphere> spheres;
     spheres.push_back(Sphere(Vec3f(-1.0, -1.5, -12), 2, sf1));
